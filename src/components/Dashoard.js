@@ -4,7 +4,8 @@ import Chart from './Chart';
 import Pichart from './Pichart';
 
 export default function Dashoard() {
-    return (<div style={{ width: "85%" }}>
+    return (<div style={{ width: "85%",background: "rgb(199, 199, 199)",
+    borderRadius: "2rem 0 0 0" }}>
         <div className="container-1">
             <div className="dashboard">
                 <h4>Dashboard</h4>
